@@ -17,6 +17,12 @@ public class InventorySlot : MonoBehaviour
             //Switch the thumbnail over
             itemDisplayImage.sprite = itemToDisplay.thumbnail;
             this.itemToDisplay = itemToDisplay;
+
+            itemDisplayImage.gameObject.SetActive(true);
+
+            return;
         }
+
+        itemDisplayImage.gameObject.SetActive(false);
     }
 }
