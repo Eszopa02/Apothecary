@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class InventorySlot : MonoBehaviour
+
+public class InventorySlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     ItemData itemToDisplay;
 
@@ -24,5 +26,17 @@ public class InventorySlot : MonoBehaviour
         }
 
         itemDisplayImage.gameObject.SetActive(false);
+    }
+
+    //Display the item info on the item info box when the player mouses over
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        UIManager.Instance.DisplayItemInfo(itemToDisplay);
+    }
+
+    //Reset the item info box when the player leaves
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        UIManager.Instance.DisplayItemInfo(null);
     }
 }

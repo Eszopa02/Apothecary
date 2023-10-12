@@ -13,6 +13,10 @@ public class UIManager : MonoBehaviour
     //The item slot UIs
     public InventorySlot[] itemSlots;
 
+    //Item info box
+    public Text itemNameText;
+    public Text itemDescriptionText;
+
     private void Awake()
     {
         //If there is more than one isntance, destroy the extra
@@ -40,7 +44,7 @@ public class UIManager : MonoBehaviour
         ItemData[] inventoryItemSlots = InventoryManager.Instance.items;
 
         //Render the item section
-        RenderInventoryPanel(inventoryItemSlots, itemSlots);
+         RenderInventoryPanel(inventoryItemSlots, itemSlots);
     }
 
     //Iterate through a slot in a section and display them in the UI
@@ -59,6 +63,21 @@ public class UIManager : MonoBehaviour
         inventoryPanel.SetActive(!inventoryPanel.activeSelf);
 
         RenderInventory();
+    }
+
+    //Display Item info on the Item infobox
+    public void DisplayItemInfo(ItemData data)
+    {
+        //If data is null, reset
+        if(data == null)
+        {
+            itemNameText.text = "";
+            itemDescriptionText.text = "";
+
+            return;
+        }
+        itemNameText.text = data.name;
+        itemDescriptionText.text = data.description;
     }
 
    
