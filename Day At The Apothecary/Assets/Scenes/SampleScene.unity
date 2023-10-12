@@ -200,6 +200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 42925208}
+  - component: {fileID: 42925209}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -223,6 +224,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &42925209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42925207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d43cefe5c9cf3841ba043ae9eb6daf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &71857446
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,6 +275,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0.000025782, y: 0.000042762}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &124573520 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+  m_PrefabInstance: {fileID: 2072831277}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &138801156 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+  m_PrefabInstance: {fileID: 1724588537}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &149050175
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,6 +589,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256637925}
   m_CullTransparentMesh: 1
+--- !u!114 &440609135 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+  m_PrefabInstance: {fileID: 1389982941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &465983001
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,6 +760,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 836828798}
     m_Modifications:
+    - target: {fileID: 1694622257805843997, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: itemDisplayImage
+      value: 
+      objectReference: {fileID: 1416568437}
     - target: {fileID: 2502277244888334929, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -801,6 +851,22 @@ PrefabInstance:
     - target: {fileID: 7466192231419613112, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
       propertyPath: m_Name
       value: Inventory Slot (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.75686276
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.83137256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
@@ -960,6 +1026,17 @@ Grid:
   m_CellGap: {x: 50, y: 50, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
+--- !u!114 &863898514 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+  m_PrefabInstance: {fileID: 1528040498}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &896542345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,6 +1216,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   offsetZ: 5
   smoothing: 2
+--- !u!114 &1075076486 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+  m_PrefabInstance: {fileID: 1314932262}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1314932262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1146,6 +1234,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 836828798}
     m_Modifications:
+    - target: {fileID: 1694622257805843997, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: itemDisplayImage
+      value: 
+      objectReference: {fileID: 1075076486}
     - target: {fileID: 2502277244888334929, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1234,6 +1326,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inventory Slot (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.75686276
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.83137256
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
 --- !u!224 &1314932263 stripped
@@ -1248,6 +1356,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 836828798}
     m_Modifications:
+    - target: {fileID: 1694622257805843997, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: itemDisplayImage
+      value: 
+      objectReference: {fileID: 440609135}
     - target: {fileID: 2502277244888334929, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1336,6 +1448,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inventory Slot (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.75686276
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.83137256
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
 --- !u!224 &1389982942 stripped
@@ -1350,6 +1478,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 836828798}
     m_Modifications:
+    - target: {fileID: 1694622257805843997, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: itemDisplayImage
+      value: 
+      objectReference: {fileID: 1911149404}
     - target: {fileID: 2502277244888334929, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1438,6 +1570,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inventory Slot (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.75686276
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.83137256
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
 --- !u!224 &1403227680 stripped
@@ -1445,6 +1593,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2502277244888334929, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
   m_PrefabInstance: {fileID: 1403227679}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1416568437 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+  m_PrefabInstance: {fileID: 701990985}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1528040498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1452,6 +1611,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 836828798}
     m_Modifications:
+    - target: {fileID: 1694622257805843997, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: itemDisplayImage
+      value: 
+      objectReference: {fileID: 863898514}
     - target: {fileID: 2502277244888334929, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1539,6 +1702,22 @@ PrefabInstance:
     - target: {fileID: 7466192231419613112, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
       propertyPath: m_Name
       value: Inventory Slot (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.75686276
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.83137256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
@@ -1768,6 +1947,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 836828798}
     m_Modifications:
+    - target: {fileID: 1694622257805843997, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: itemDisplayImage
+      value: 
+      objectReference: {fileID: 138801156}
     - target: {fileID: 2502277244888334929, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1855,6 +2038,22 @@ PrefabInstance:
     - target: {fileID: 7466192231419613112, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
       propertyPath: m_Name
       value: Inventory Slot (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.75686276
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.83137256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
@@ -2045,6 +2244,17 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1911149404 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+  m_PrefabInstance: {fileID: 1403227679}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1928722117
 GameObject:
   m_ObjectHideFlags: 0
@@ -2143,6 +2353,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1993488891 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+  m_PrefabInstance: {fileID: 3273023261717264154}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2072831277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2150,6 +2371,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 836828798}
     m_Modifications:
+    - target: {fileID: 1694622257805843997, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: itemDisplayImage
+      value: 
+      objectReference: {fileID: 124573520}
     - target: {fileID: 2502277244888334929, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2237,6 +2462,22 @@ PrefabInstance:
     - target: {fileID: 7466192231419613112, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
       propertyPath: m_Name
       value: Inventory Slot (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.75686276
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.83137256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
@@ -2330,6 +2571,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 836828798}
     m_Modifications:
+    - target: {fileID: 1694622257805843997, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: itemDisplayImage
+      value: 
+      objectReference: {fileID: 1993488891}
     - target: {fileID: 2502277244888334929, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2417,6 +2662,22 @@ PrefabInstance:
     - target: {fileID: 7466192231419613112, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
       propertyPath: m_Name
       value: Inventory Slot
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.75686276
+      objectReference: {fileID: 0}
+    - target: {fileID: 7695183660617754037, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.83137256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45baeac0255b21f4280baa8a0675808b, type: 3}
